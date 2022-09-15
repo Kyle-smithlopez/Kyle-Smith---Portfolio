@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kyle Smith - Full Stack Developer</title>
+    <link rel="stylesheet" href="app.css" />
+
+    <!-- Favicon -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+
+    <!-- Bootstrap CDN -->
+
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+
+    <!-- CSS Animate -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo+Play:wght@400;600;700;900&family=Montserrat:ital,wght@0,400;0,700;1,600;1,700&family=Poppins&family=Roboto&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg sticky-top navbar-color font">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Kyle Smith</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#about">About Me</a>
+            <a class="nav-link" href="#skills">Projects</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About me -->
+    
+    <section class="intro" id="about">
+      <img src="assets/programming.png" alt="" loading="lazy" class="intro-img" />
+      <div class="bio">
+        <h2 class="bio-title font animation">
+          <span class="word">Hi,</span> <span class="word">I'm</span> <span class="word" id="myName">Kyle</span>
+          <span class="word" id="myName">Smith</span><br />
+          <span class="word">and</span> <span class="word">I</span> <span class="word">am</span>
+          <span class="word">an</span> <span class="word">aspiring</span>
+          <span class="word" id="word">Full Stack Developer</span>
+        </h2>
+        <span class="word">
+          <p class="bio-text font">
+            I enjoy creating and building things for the web. At some point, I would like to explore the software and
+            mobile side as I continue to learn more. I am excited to start this journey
+          </p>
+        </span>
+      </div>
+    </section>
+
+    <!-- More About Me -->
+
+    <section class="more-about font">
+      <h2>About Me</h2>
+      <p>
+        I will be graduating from Western Governors University with a B.S. in Computer Science emphasis in Software
+        Development beginning of 2023.
+      </p>
+      <p>
+        I have 10+ years of work experience in various roles including Technical Support/Help Desk, Human Resources &
+        Recruiting. I am hoping to begin a career in my desired field and becoming a Full Stack Engineer
+      </p>
+      <p>
+        Please take a look at my portfolio, and feel free to reach out for any employment opportunties or if you have
+        any questions.
+      </p>
+    </section>
+
+    <!-- skills -->
+
+    <section class="skills" id="skills">
+      <h2 class="skill-header font">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img src="assets/html.png" alt="" loading="lazy" class="icon icon-card" />
+          <img src="assets/css-3.png" alt="" loading="lazy" class="icon icon-card" />
+          <img src="assets/js.png" alt="" loading="lazy" class="icon icon-card" />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img src="assets/bootstrap.png" alt="" loading="lazy" class="icon icon-card" />
+          <img src="assets/node-js.png" alt="" loading="lazy" class="icon icon-card" />
+          <img src="assets/sql.png" alt="" loading="lazy" class="icon icon-card" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+
+    <section class="projects" id="projects">
+      <h2 class="projects-title font">Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img src="assets/yelpcamp.png" alt="yelpcamp" loading="lazy" class="project-pic" />
+          <h3 class="project-title font">YelpCamp</h3>
+          <p class="project-details font">
+            This is a Full Stack Website in which I used HTML, CSS, JS for the front-end. Node.JS. Bootstrap was used
+            for styling. Node.JS and Express was used for the back-end.
+          </p>
+          <a href="https://hidden-bayou-17627.herokuapp.com/" target="_blank" class="project-link font">Check it Out</a>
+        </div>
+        <!-- <div class="project-container project-card">
+          <img src="assets/project2" alt="project 2" loading="lazy" class="project-pic" />
+          <h3 class="project-title">Project 2</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi
+            quos culpa aut saepe! Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img src="assets/project3.png" alt="project 3" loading="lazy" class="project-pic" />
+          <h3 class="project-title">Project 3</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi
+            quos culpa aut saepe! Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div> -->
+      </div>
+
+      <!-- Contact Info -->
+
+      <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+          <div class="contact-form form-control">
+            <form action="https://formspree.io/f/mbjbgljq" method="POST">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name:</label>
+                <input
+                  type="text"
+                  class="form-control input-field"
+                  name="name"
+                  id="name"
+                  placeholder="Enter Your Name"
+                  required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address:</label>
+                <input
+                  type="email"
+                  class="form-control input-field"
+                  name="email"
+                  id="email"
+                  placeholder="Enter Your Email"
+                  required />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message:</label>
+                <textarea
+                  class="form-control input-field"
+                  name="message"
+                  id="message"
+                  cols="60"
+                  rows="10"
+                  placeholder="Enter Your Message"
+                  required></textarea>
+              </div>
+              <button type="submit" value="Submit" class="btn submit-btn btn-primary submit" id="submit-btn">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    <!-- Social Accounts -->
+
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/kyle-smith-100216/" target="_blank"
+        ><img src="assets/linkedin.png" alt="Linkedin" loading="lazy" class="socicon"
+      /></a>
+      <a href="https://github.com/Kyle-smithlopez" target="_blank"
+        ><img src="assets/github.png" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <!-- <i class="scroll-up" id="scroll-up"
+      ><img src="assets/icons8-upward-arrow.gif" class="socicon up-arrow" alt="scroll-up"
+    /></i> -->
+    <i class="scroll-up" id="scroll-up"
+      ><img src="assets/arrow-up-circle-fill.svg" class="socicon up-arrow" alt="scroll-up"
+    /></i>
+    <!-- Footer -->
+    <footer>
+      <p class="copy">&copy; Copyright 2022</p>
+    </footer>
+
+    <!-- Scripts -->
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
