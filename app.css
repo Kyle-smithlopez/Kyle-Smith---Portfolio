@@ -132,6 +132,7 @@ body {
   margin-bottom: var(--bottom-margin);
   text-align: center;
   font-weight: var(--bold-font);
+  padding-bottom: 1rem;
 }
 
 .more-about p {
@@ -220,6 +221,11 @@ body {
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
+}
+
+.img-size {
+  width: 100%;
+  height: 150px;
 }
 
 /* Contact */
