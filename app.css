@@ -228,6 +228,11 @@ body {
   height: 150px;
 }
 
+.img-size2 {
+  width: 43%;
+  height: 43%;
+}
+
 /* Contact */
 
 .contact {
